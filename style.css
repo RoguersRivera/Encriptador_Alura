@@ -1,0 +1,106 @@
+*{
+    background: #F3F5FC;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: #0A3871;
+
+}
+
+.Logo{
+    padding-top: 1%;
+    margin-left: 1%;
+    width: 9%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.text_area{
+    padding-top: 1%;
+    border: none;
+    color: #0A3871;
+    margin-top: 1%;
+    text-transform: lowercase;
+}
+
+::placeholder{color: #0A3871;}
+.text_area:focus{
+    outline: none ; 
+}
+
+
+.text_area2{
+    padding-top: 1%;
+    border: none;
+    color: #0A3871;
+    margin-top: 1%;
+    text-transform: lowercase;
+    background-image: url(/imagenes/detective.png);
+    background-size: cover;
+    border-radius: 17px;
+    margin-left: 95px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    
+}
+
+::placeholder{color: #0A3871;}
+.text_area2:focus{
+    outline: none ; 
+}
+
+
+.btn_encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 17px;
+    color: wheat;
+    cursor: pointer;
+    height: 67px;
+    width: 200px;
+    font-size: 27px;
+}
+
+.btn_desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 17px;
+    margin-left: 30px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 200px;
+    font-size: 27px;
+}
+
+.btn_copiar{
+    margin-left: 95px;
+    padding-left: 20px;
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 17px;
+    color: wheat;
+    cursor: pointer;
+    height: 67px;
+    width: 200px;
+    font-size: 27px;
+}
+
+.informacion {
+    color: #495057;
+    font-size: 17px;
+    
+}
+
+.informacion2 {
+    margin-left: 95px;
+    padding-left: 20px;
+    color: #495057;
+    font-size: 17px;
+    
+}
